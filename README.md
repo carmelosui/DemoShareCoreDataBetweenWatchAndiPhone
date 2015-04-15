@@ -3,7 +3,7 @@ This is a demo that shows how to share a core data persistent store between watc
 
 You need to have a valid developer ID which is enrolled in iOS developing programme.
 
-You need to fix the compile error in CoreDataManager.swift by turn on the "App Group" capability in both target:  
+You need to fix the compile error in CoreDataManager.swift by turn on the "App Group" capability in both targets:  
 
 - ShareCoreDataBetweenWatchAndiPhone  
 - ShareCoreDataBetweenWatchAndIPhone WatchKit Extension
