@@ -11,7 +11,8 @@ import CoreData
 public class CoreDataManager: NSObject {
     public static let sharedInstance = CoreDataManager()
     
-    let shareGroupName = "group.com.carmelosui.demowatchcoredata"
+//    let shareGroupName = "group.com.carmelosui.demowatchcoredata"
+    let shareGroupName = //You need to fill your container group id here, and you must turn the "App Group" capability in main app target and watch extension target's "Capability" tab
     
     func sharedContainerDirectoryURL() -> NSURL {
         return NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier(shareGroupName)!
